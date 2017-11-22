@@ -1,6 +1,3 @@
-import math
-
-
 def pe_3(num=600851475143):
 
     max_divisor = 0

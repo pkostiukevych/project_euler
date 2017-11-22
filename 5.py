@@ -20,7 +20,7 @@ def find_number(div_max=20):
 
     result = 1
 
-    for _, prime in enumerate(primes):
+    for prime in primes:
         a = math.floor(math.log(div_max) / math.log(prime))
         result = result * int(pow(prime, a))
 
